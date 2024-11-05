@@ -1,0 +1,80 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    text-align: center;
+}
+
+header nav ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+header nav ul li{
+    display: inline;
+    margin: 0 10px;
+}
+
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+header .logo {
+    float: left;
+    width: 50px;
+    margin-right: 15px;
+}
+
+#lista-produtos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product {
+    border: 1px solid #ddd;
+    padding: 10px;
+    width: calc(33.333% - 20px); /* Para que cada produto ocupe um terço da linha */
+    box-sizing: border-box;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#produtos-vitrine {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+main{
+    padding: 20px;
+}
+
+h3{
+    font-size: 25px;
+}
+
+button {
+    background-color: #f6422e;  /* Fundo vermelho */
+    color: white;               /* Texto branco */
+    border: none;               /* Remover borda */
+    padding: 10px 20px;         /* Espaçamento interno */
+    border-radius: 5px;         /* Borda arredondada */
+    cursor: pointer;            /* Cursor de mão */
+    font-size: 16px;            /* Tamanho do texto */
+    transition: background-color 0.3s;  /* Efeito de transição suave */
+    margin-top: 5px;
+}
+
+/* Efeito hover para os botões */
+button:hover {
+    background-color: #d1301d;  /* Fundo mais escuro no hover */
+}
